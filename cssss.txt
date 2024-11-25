@@ -1,0 +1,3 @@
+alter table tb_produto
+add constraint fk_cd_cliente foreign key (tb_usuarios_cd_cliente)
+references tb_usuarios (cd_cliente);
